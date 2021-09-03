@@ -1,0 +1,14 @@
+.squareDivClass {
+  border: 1px solid red;
+  padding: 5px;
+  margin: 5px;
+}
+
+.squareTextClass {
+  border: 1px solid blue;
+}
+
+#gameboardContainer {
+  border: 1px solid purple;
+  padding: 5px;
+}

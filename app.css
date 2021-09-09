@@ -1,14 +1,117 @@
-.squareDivClass {
-  border: 1px solid red;
-  padding: 5px;
-  margin: 5px;
-}
-
-.squareTextClass {
-  border: 1px solid blue;
+body {
+  background-color: #b1c1c0;
 }
 
 #gameboardContainer {
-  border: 1px solid purple;
-  padding: 5px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#gridContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background-color: white;
+}
+
+.squareDivClass {
+  border: 1px solid #918868;
+  padding: 10px;
+  height: 200px;
+  flex-basis: 33.33%;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.squareDivClass:hover {
+  cursor: pointer;
+}
+
+#infoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+#displayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player1NameDisplay {
+  display: none;
+  margin: 1em;
+  font-size: 2em;
+}
+
+#player2NameDisplay {
+  display: none;
+  margin: 1em;
+  font-size: 2em;
+}
+
+#player1Name {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+
+#player2Name {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+
+#player1NameLabel {
+  font-size: 1.5em;
+}
+
+#player2NameLabel {
+  font-size: 1.5em;
+}
+
+#startButton {
+  background: #dcedb9;
+  border: 1px solid #cbd081;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.15em;
+}
+
+#startButton:hover {
+  background: #d2e59e;
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em #cbd081;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+#resetButton {
+  background: #dcedb9;
+  border: 1px solid #cbd081;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.15em;
+}
+
+#resetButton:hover {
+  background: #d2e59e;
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em #cbd081;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }

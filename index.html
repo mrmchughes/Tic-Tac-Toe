@@ -9,8 +9,38 @@
 </head>
 <body>
     <div id="gameboardContainer"></div>
+    
+    <div id="infoContainer">
+        <div id="player1InfoField">
+            <label for="player1Name" id="player1NameLabel">Player 1 Name: </label>
+            <input type="text" id="player1Name" name="player1Name" placeholder="Enter Player 1 Name here" required>
+        </div>
+      
+        <div id="player2InfoField">
+            <label for="player2Name" id="player2NameLabel">Player 2 Name: </label>
+            <input type="text" id="player2Name" name="player2Name" placeholder="Enter Player 2 Name here" required>
+        </div>
+    </div>
 
-    <button id="testButton" type="button">Click me to test stuff!</button>
+    <div id="displayContainer">
+        <div id="player1NameDisplay">
+            Player 1: 
+        </div>
+
+        <div id="player2NameDisplay">
+            Player 2: 
+        </div>
+    </div>
+
+    <div id="buttonContainer">
+        <div>
+            <button type="button" id="startButton">Start a new game with the current players!</button>
+        </div>
+
+        <div>
+            <button type="button" id="resetButton" class="buttons">Click to enter new player names!</button>
+        </div>
+    </div>
     
 <script type="text/javascript" src="app.js"></script>
 </body>

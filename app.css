@@ -4,7 +4,7 @@ body {
 
 #gameboardContainer {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 30em;
 }
 
 #gridContainer {
@@ -14,10 +14,15 @@ body {
   background-color: white;
 }
 
+#gameOverBox {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.75em;
+}
+
 .squareDivClass {
   border: 1px solid #918868;
-  padding: 10px;
-  height: 200px;
+  height: 3.33333em;
   flex-basis: 33.33%;
   position: relative;
   box-sizing: border-box;
@@ -41,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em;
+  margin: 0.75em;
 }
 
 #displayContainer {
@@ -51,43 +56,49 @@ body {
 }
 
 #player1NameDisplay {
+  border: 1px solid #cbd081;
+  background-color: white;
+  padding: 0.75em;
   display: none;
-  margin: 1em;
-  font-size: 2em;
+  margin: 0.75em;
+  font-size: 1.5em;
 }
 
 #player2NameDisplay {
+  border: 1px solid #cbd081;
+  background-color: white;
+  padding: 0.75em;
   display: none;
-  margin: 1em;
-  font-size: 2em;
+  margin: 0.75em;
+  font-size: 1.5em;
 }
 
 #player1Name {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-right: 1em;
-  font-size: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-right: 0.75em;
+  font-size: 1.25em;
 }
 
 #player2Name {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-right: 1em;
-  font-size: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-right: 0.75em;
+  font-size: 1.25em;
 }
 
 #player1NameLabel {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #player2NameLabel {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #startButton {
   background: #dcedb9;
   border: 1px solid #cbd081;
-  margin: 1em;
+  margin: 0.75em;
   padding: 0.5em;
   font-size: 1.15em;
 }
@@ -103,7 +114,7 @@ body {
 #resetButton {
   background: #dcedb9;
   border: 1px solid #cbd081;
-  margin: 1em;
+  margin: 0.75em;
   padding: 0.5em;
   font-size: 1.15em;
 }
